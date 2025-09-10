@@ -95,3 +95,16 @@ do {
 	console.log(`Count ${countTwo}`);
 	countTwo++;
 } while (countTwo < 5);
+
+
+
+
+function isRose(cat) {
+    if(cat === 'rose'){
+    return 'Hi Rose you are cute'
+    }
+ else if(typeof cat === 'string') {
+    return `hi ${cat}`
+}
+}
+isRose('rose');
